@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.container {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  margin: 0 auto;
+}
+
+/* Loader */
+
+.spinner {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 3px dashed #3f51b5;
+  background-color: transparent;
+  animation: search-repos 0.8s linear alternate infinite;
+}
+
+@keyframes search-repos {
+  from {
+    transform: rotate(0deg) scale(1);
+  }
+  to {
+    transform: rotate(360deg) scale(1.4);
+  }
+}
+
+/* 
+  Search form
+*/
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 30px;
+  max-width: 380px;
+  flex: 1 1 100%;
+}
+
+.search-input {
+  padding: 0 10px;
+  margin-bottom: 24px;
+}
+
+.search-result {
+  text-align: center;
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 700;
+}
+
+/* Repositories List */
+
+.repos-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  max-width: 480px;
+  margin-bottom: 40px;
+}
+
+.repos-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.repos-name {
+  display: inline-flex;
+  word-break: break-all;
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+  flex: 0 1 auto;
+  text-align: left;
+  transition: all 0.3s ease 0s;
+}
+
+.repos-name:hover {
+  color: #bada55;
+}
+
+.repos-box {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 45%;
+  text-align: right;
+}
+
+.repos-number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  flex: 0 1 45%;
+}
+.repos-number svg {
+  flex: 0 0 auto;
+}
+.repos-number span {
+  text-align: right;
+  flex: 0 1 100%;
+}
+
+.repos-number.repos-stars {
+  margin-right: 4px;
+}
+
+.repos-text {
+  text-align: right;
+}
