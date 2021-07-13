@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/github-repos/static/css/main.6dd3ed18.chunk.css",
+    "main.js": "/github-repos/static/js/main.a9854a0b.chunk.js",
+    "main.js.map": "/github-repos/static/js/main.a9854a0b.chunk.js.map",
+    "runtime-main.js": "/github-repos/static/js/runtime-main.eafe6486.js",
+    "runtime-main.js.map": "/github-repos/static/js/runtime-main.eafe6486.js.map",
+    "static/js/2.d7e47075.chunk.js": "/github-repos/static/js/2.d7e47075.chunk.js",
+    "static/js/2.d7e47075.chunk.js.map": "/github-repos/static/js/2.d7e47075.chunk.js.map",
+    "static/js/3.9de0c606.chunk.js": "/github-repos/static/js/3.9de0c606.chunk.js",
+    "static/js/3.9de0c606.chunk.js.map": "/github-repos/static/js/3.9de0c606.chunk.js.map",
+    "index.html": "/github-repos/index.html",
+    "static/css/main.6dd3ed18.chunk.css.map": "/github-repos/static/css/main.6dd3ed18.chunk.css.map",
+    "static/js/2.d7e47075.chunk.js.LICENSE.txt": "/github-repos/static/js/2.d7e47075.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eafe6486.js",
+    "static/js/2.d7e47075.chunk.js",
+    "static/css/main.6dd3ed18.chunk.css",
+    "static/js/main.a9854a0b.chunk.js"
+  ]
+}
